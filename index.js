@@ -36,6 +36,7 @@ const sayilar = [
 */
 
 //Örneğin çözümü:
+console.log(KareninAlani(10))
 function KareninAlani(kenaruzunlugu) {
   return kenaruzunlugu * kenaruzunlugu;
 }
@@ -49,9 +50,9 @@ function KareninAlani(kenaruzunlugu) {
 	3. Çemberin çevresi hesaplanacaktır (💡 İPUCU: Çemberin çevresi = 2 * pi * yarıçap)
 	4. Hesaplanan çemberin çevresi döndürülecektir.
 */
-
-function CemberinCevresi(/* kodlar buraya */) {
-  /* kodlar buraya */
+console.log(CemberinCevresi(5))
+function CemberinCevresi(r) {
+  return 2*pi*r
 }
 
 /* (Oto test yok) Yukarıdaki CemberinCevresi fonksiyonunu yarıçap = 5 vererek aşağıda çalıştırıp, sonucu konsolda gözlemleyin (console.log)  */
@@ -63,9 +64,9 @@ function CemberinCevresi(/* kodlar buraya */) {
 	3. Çemberin alanı hesaplanacaktır (💡 İPUCU: Çemberin alanı = pi * yarıçapın karesi, yarıçapın karesini bulmak için Javascript içinde tanımlı Math kütüphanesini kullanabilirsiniz. Math.pow(yaricap,2))
 	4. Hesaplanan çemberin alanı döndürülecektir.
 */
-
-function CemberinAlani(/* kodlar buraya */) {
-  /* kodlar buraya */
+console.log(CemberinAlani(15,pi))
+function CemberinAlani(r,pi) {
+  return pi*Math.pow(r,2)
 }
 
 /* (Oto test yok) Yukarıdaki CemberinAlani fonksiyonunu yarıçap = 15 vererek aşağıda çalıştırıp, sonucu konsolda gözlemleyin (console.log)  */
